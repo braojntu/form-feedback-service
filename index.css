@@ -1,0 +1,71 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+.container {
+        display: grid;
+        position: relative;
+        border-style: groove;
+        width: 70%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #f7efc5 ;
+    }
+
+header {
+    font-weight: bold; 
+    font-size: 24px; 
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: groove;
+    background-color: lightblue;
+}
+
+.per-info {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: groove;
+}
+
+tfoot {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+.sec1,
+.sec2 {
+        margin: 10px 10px 10px 10px;
+        border-style: groove;
+    }
+#radio {
+    display: inline-block;
+    text-align: center;
+}
+
+.pur,.comp,.buy,.recom-c {
+        background-color: lightblue;
+        width: 100%;
+        align-self: center;
+    }
+
+.ser,.recom-p {
+        background-color: white;
+        width: 100%;
+    }
+
+.comments {
+        margin: 10px 10px 10px 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+
+#button {
+    color: lightblue;
+    font-size: 20px;
+    text-align: center;
+}
